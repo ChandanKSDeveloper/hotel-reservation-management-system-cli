@@ -6,7 +6,7 @@ public class DBConnection {
     private static final String DBNAME = "hotel_db";
     private static final String URL = "jdbc:mysql://localhost:3306/" + DBNAME;
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "chandan@root";
+    private static final String PASSWORD = "YOUR_MYSQL_PASSWORD";
     private static volatile Connection connection; // volatile to ensure proper memory visibility
     //This ensures that all threads will see the correctly initialized connection instance.
 
