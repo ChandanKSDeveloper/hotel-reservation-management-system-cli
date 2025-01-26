@@ -3,14 +3,12 @@
 A Java-based hotel reservation management system designed to handle hotel operations like room bookings, customer management, and more. The system connects to a MySQL database via JDBC for seamless data handling and storage.
 
 ## Table of Contents 📚
-- [Features](#features)
+- [Features](#Features)
 - [Technologies Used](#technologies-used)
 - [Prerequisites](#prerequisites)
 - [How to Run the Project](#how-to-run-the-project)
-- [Database Setup](#database-setup)
 - [How it Works](#how-it-works)
 - [Project Structure](#project-structure)
-- [Future Enhancements](#future-enhancements)
 - [Troubleshooting](#troubleshooting)
 
 ## Features 🌟
@@ -60,26 +58,6 @@ Before running the project, ensure you have the following installed:
 
 5. **Run the project**:
     - Locate and run the `Main.java` file to start the application.
-
-## Database Setup 🗄️
-
-1. **Create the Database in MySQL**:
-    Run the following command in your MySQL client:
-    ```sql
-    CREATE DATABASE hotel_db;
-    ```
-
-2. **Import the SQL Schema**:
-    Use the provided SQL script (`hotel_db.sql`) to create tables and seed initial data:
-    ```bash
-    mysql -u your_username -p hotel_db < hotel_db.sql
-    ```
-
-3. **Verify Tables**:
-    Ensure the required tables (`customers`, `rooms`, `reservations`) are created by running:
-    ```sql
-    SHOW TABLES;
-    ```
 
 ## How it Works ⚙️
 
